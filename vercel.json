@@ -1,5 +1,5 @@
 {
-  "buildCommand": "python --version",
+  "buildCommand": "python task.py",
   "crons": [
     {
       "path": "/api/cron/1m",

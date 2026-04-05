@@ -1,10 +1,8 @@
 {
-  "buildCommand": "python task.py",
-  "crons": [
+  "routes": [
     {
-      "path": "/api/cron/1m",
-      "schedule": "* * * * *"
+      "src": "/(.*)",
+      "dest": "api/wsgi.py"
     }
   ]
 }
-
